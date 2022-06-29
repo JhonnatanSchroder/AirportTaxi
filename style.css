@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: url(/assets/bg_airport.jpg) center center / cover fixed;
+}
+section{
+    max-width: 1000px;
+}
+.section-principal{
+    background-color: #ffffffbb;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.titulo-principal{
+    font-size: max(16px, 2.5vw);
+    text-transform: uppercase;
+    color: #0e4190;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.titulo-principal2{
+    font-size: max(14px, 2.5vw);
+    text-transform: uppercase;
+    color: #0e4190;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.titulo-principal3{
+    font-size: max(19px, 2.5vw);
+    text-transform: uppercase;
+    color: #0e4190;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.titulo-principal4{
+    font-size: max(30px, 3vw);
+    text-transform: uppercase;
+    color: #0e4190;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.etapas{
+    font-size: max(19px, 2.5vw);
+    color: #0e4190;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.paragrafo-etapa{
+    font-size: max(15px, 1.5vw);
+    text-align: left;
+    margin-bottom: 30px;
+    color: #0e4190;
+}
+.opcoes-servicos{
+    margin-bottom: 20px;
+    max-width: 300px;
+    width: 80%;
+    box-sizing: border-box;
+
+}
+.opcao-aeroporto{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 276px;
+    margin: auto;
+    border: 2px solid rgb(37, 37, 221);
+}
+.opcao-aeroporto:hover p{
+   color: white;
+}
+.opcao-aeroporto:hover {
+   background-color: #0c54c9;
+}
+.comecar{
+    display: inline-block;
+    text-align: left;
+}
+.data{
+    width: 50%;
+}
+#input-rua{
+    width: 97%;
+}
+.cep{
+    width:50%;
+}
+.cidade{
+    width: 45%;
+}
+#select-hora{
+    padding: 4px;
+    border:1px solid #2c3d59;
+    border-radius: 5px;
+    background-color: white;
+}
+#select-minuto{
+    padding: 4px;
+    border:1px solid #2c3d59;
+    border-radius: 5px;
+    background-color: white;
+}
+.informações p{
+    display: inline-block;
+}
+.text-opção1{
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    max-width: 300px;
+}
+.text-opção2{
+    display: inline-block;
+    font-size: 15px;
+    max-width: 300px;
+    font-weight:900;
+}
+.footer{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.sobreNos-footer{
+    background-color: #6886b6;
+    padding: 20px;
+}
+.img-footer{
+    background-color: #6886b6;
+    padding: 20px;
+    margin-bottom: 10px;
+}

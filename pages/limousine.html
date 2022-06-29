@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="/style.css">
+  <title>Serviço de Limousine</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/index.html">
+          <img src="/assets/logo1.png" width="112" height="28">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="/pages/sobreNos.html">
+            Sobre Nós
+          </a>
+    
+          <a class="navbar-item" href="/pages/contato.html">
+            Contato
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="section section-principal">
+
+    <!-- Titulo principal -->
+    <div class="container">
+      <h1 class="titulo-principal3">SERVIÇO DE LIMOUSINE</h1>
+      <h2 class="etapas"> Etapa 1 de 6</h2>
+      <p class="paragrafo-etapa">Informe sua hora de inicio e ponto de partida:</p>
+      <!-- Coluna 1 -->
+      <div class="columns">
+        <div class="column is-6" style="text-align: left;"  >
+                <!-- <p class="comecar" >Começar:</p>
+                  <input type="text" class="input-data" onmouseover="(this.type='date')" 
+                  onmouseleave="(this.type='text')"placeholder="MM/DD/YYY"> -
+
+                  <select name="data" id="select-hora">
+                    <option value="">00</option>
+                    <option value="">01</option>
+                    <option value="">02</option>
+                    <option value="">03</option>
+                    <option value="">04</option>
+                    <option value="">05</option>
+                    <option value="" selected>06</option>
+                    <option value="">07</option>
+                    <option value="">08</option>
+                    <option value="">09</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                  </select> -
+                  <select name="data" id="select-minuto">
+                    <option value="">00</option>
+                    <option value="">01</option>
+                    <option value="">02</option>
+                    <option value="">03</option>
+                    <option value="">04</option>
+                    <option value="">05</option>
+                    <option value="" selected>06</option>
+                    <option value="">07</option>
+                    <option value="">08</option>
+                    <option value="">09</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                  </select>
+
+                <p class="rua">Rua:</p>
+                <input type="text" class="input-rua">
+
+                <br>
+
+                <p class="paragrafos-input">CEP/Cidade:</p>
+                <input type="number" name="" class="input-cep">
+                <input type="text" name="" class="input-cidade">
+            </div>
+            <br> -->
+        
+            
+            <form class="box">
+              <div class="field">
+                <label class="label">Começar</label>
+                <div class="control" id="input-cep">
+                  <input  class="input cep is-link" type="text"  onmouseover="(this.type='date')" 
+                  onmouseleave="(this.type='text')"placeholder="MM/DD/YYY" style="text-align: center;">
+                  <input  class="input cidade is-link" type="text"  onmouseover="(this.type='time')" 
+                  onmouseleave="(this.type='text')"placeholder="00:00" style="text-align: center;">
+                </div>
+              </div>
+            
+              <div class="field">
+                <label class="label">Rua</label>
+                <div class="control" id="input-rua">
+                  <input  class="input is-link" type="text" placeholder="insira o nome da rua">
+                </div>
+              </div>
+              <div class="field">
+                <label class="label">CEP/Cidade</label>
+                <div class="control" id="input-cep">
+                  <input  class="input cep" type="number" placeholder="insira o CEP">
+                  <input  class="input cidade" type="text" placeholder="insira a Cidade">
+                </div>
+              </div>
+              
+            
+              <button class="button is-link">Continuar</button>
+            </form>
+        </div>
+
+        <!-- Coluna 2 -->
+
+        <div class="column">
+            
+      </div>
+  </section>
+  
+
+  <footer class="section has-background-link footer ">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h3 class="title is-4 has-text-white" style="margin-bottom: 10px;">SOBRE NÓS:</h3>
+                <div class="paragrafo has-text-white" style="text-align: left;">
+                    <p class="sobreNos-footer">
+                      Somos uma empresa de transporte sediada ao lado do Aeroporto de Zurique-Kloten.
+                      Nosso nome de táxi "Chloote Taxi" diz tudo
+                      <br>
+                      <br>
+                      ... acreditamos plenamente na Suíça !!!
+                      Segurança, pontualidade e simpatia são as nossas principais prioridades.
+                      Como temos nossa base bem ao lado do Aeroporto Internacional de Zurique-Kloten
+                      <br>
+                      <br>
+                      estamos "em casa" no início ou no final de uma viagem.
+                      Como os preços dos táxis são geralmente muito altos na Suíça, nos vemos como um "provedor de nicho" com nosso produto.
+                      Consideramos nosso potencial ascendente muito alto, pois convencemos todos os nossos passageiros com um produto e serviço impecável.  
+                      Teste-nos e verá que não prometemos muito!!!</p>
+                </div>
+            </div>
+            <div class="column">
+                <h2 class="title is-4 has-text-white">TELEFONE: 044 888 777 8</h2>
+                <h2 class="title is-4 has-text-white">OPERADO POR:</h2>
+                <img class="img-footer" src="/assets/chlootetaxi.png" alt="">
+                <img class="img-footer" src="/assets/basinueritaxi.png" alt="">
+
+            </div>
+        </div>            
+    </div>
+</footer>
+
+
+  <script src="/menu.js"></script>
+</body>
+</html>
